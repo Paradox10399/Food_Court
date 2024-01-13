@@ -1,10 +1,12 @@
 import React from 'react'
+import Navbar from './Navbar'
+import SearchForm from './SearchForm'
 
 function Header() {
   return (
-    <div>
-      
-    </div>
+    <header class='headerName'>
+      <Navbar/>
+    </header>
   )
 }
 

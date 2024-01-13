@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MealDetail() {
+function MealDetailPage() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function MealDetail() {
   )
 }
 
-export default MealDetail
+export default MealDetailPage
