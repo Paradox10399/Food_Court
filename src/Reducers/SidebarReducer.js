@@ -7,7 +7,6 @@ const SidebarReducer = (state,action) => {
                     ...state,
                     isSidebarOpen: true
                 }
-            break;
         case CLOSE_SIDEBAR:
                 return {
                     ...state,
