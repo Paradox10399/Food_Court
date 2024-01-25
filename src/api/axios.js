@@ -1,11 +1,5 @@
-import React from 'react'
+import axios from "axios";
 
-function axios() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default axios
+export default axios.create({
+  baseURL:'https://www.themealdb.com/api/json/v1/1'
+})

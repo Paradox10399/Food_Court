@@ -16,6 +16,7 @@ export const SidebarProvider = ({ children }) => {
     }
 
     const closeSidebar = () => {
+
         dispatch({ type: CLOSE_SIDEBAR });
     }
 
@@ -25,7 +26,7 @@ export const SidebarProvider = ({ children }) => {
             openSidebar,
             closeSidebar,
         }}>
-            {{ children }}
+            { children }
         </sidebarContext.Provider>
     )
 }
