@@ -20,9 +20,9 @@ function NavBar() {
   })
   
   return (
-    <nav className={`navbar bg-info-subtle w-100 ${scrolled ? 'position-fixed top-0': ''}`}>
+    <nav className={`navbar bg-info-subtle z-3 w-100 ${scrolled ? 'position-fixed top-0': ''}`}>
       <div className="container-fluid">
-        <Link className="navbar-brand" to={"/"}>FOOD WEB LOGO</Link>
+        <Link className="navbar-brand" to={"/"}>FOOD COURT</Link>
         <button className="navbar-toggler" onClick={() => openSidebar()} type='button'>
           <span className="navbar-toggler-icon"></span>
         </button>
